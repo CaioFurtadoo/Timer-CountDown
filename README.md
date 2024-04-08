@@ -16,7 +16,9 @@ Criei um timer/countdown com JavaScript, css e html. Futuramente irei fazer um l
 <br>
 
 <p align="center">
+  
 https://github.com/CaioFurtadoo/Timer-CountDown/assets/164534948/7e3e3991-f25f-4e4e-a075-67bf74be6eba
+
 </p>
 
 ## 🚀 Tecnologias
