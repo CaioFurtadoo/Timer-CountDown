@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="watch">
+            <input
+                type="number"
+                name=""
+                id="hour"
+                value="00"
+                max="99"
+                min="0"
+            />
+            <p>:</p>
+            <input
+                type="number"
+                name=""
+                id="minute"
+                value="00"
+                max="59"
+                min="0"
+            />
+            <p>:</p>
+            <input
+                type="number"
+                name=""
+                id="second"
+                value="00"
+                max="59"
+                min="0"
+            />
+        </div>
+        <div class="buttons">
+            <button id="start" onclick="start()">start</button>
+            <button id="stop" onclick="stopp()" disabled>stop</button>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

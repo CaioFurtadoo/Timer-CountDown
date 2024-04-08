@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(30, 30, 30);
+}
+.watch {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+p {
+    font-size: 200px;
+    color: white;
+}
+input {
+    height: 200px;
+    width: 250px;
+    font-size: 200px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: none;
+}
+
+#start {
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    background-color: rgba(38, 182, 38, 0.748);
+    border-radius: 25px;
+    border: none;
+}
+
+#pause {
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    background-color: rgba(83, 81, 81, 0.625);
+    border-radius: 25px;
+    border: none;
+}
+
+#stop {
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    background-color: rgba(216, 42, 42, 0.842);
+    border-radius: 25px;
+    border: none;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
